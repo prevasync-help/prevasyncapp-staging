@@ -1,0 +1,645 @@
+/* MadCap Table Style: */
+
+/*<meta Version="9" />*/
+
+mcTableStyle
+{
+	name: Table1;
+	border-collapse: separate;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-left-color: #e5e5e5;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: #e5e5e5;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: #e5e5e5;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #e5e5e5;
+	max-id: 9;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+	overflow: hidden;
+	background-image: none;
+}
+
+mcTableColumnStyle
+{
+	span: 2;
+	separator-style: solid;
+	separator-width: 1px;
+	separator-color: #e5e5e5;
+	name: Column1;
+	id: 0;
+	text-align: left;
+	vertical-align: middle;
+	font-family: 'Noto Sans';
+	font-size: 11pt;
+	background-color: #ffffff;
+	ruler-style: solid;
+	ruler-width: 1px;
+	ruler-color: #e5e5e5;
+}
+
+mcTableHeadStyle
+{
+	span: 1;
+	id: 5;
+	name: Header1;
+	background-color: #646464;
+	font-size: 11pt;
+	font-family: 'Noto Sans';
+	color: #ffffff;
+	size: 2px;
+	background-image: none;
+	separator-style: solid;
+	separator-width: 1px;
+	separator-color: #e5e5e5;
+	text-align: center;
+	vertical-align: middle;
+}
+
+mcTableBodyStyle
+{
+	span: 6;
+	id: 8;
+	name: Body1;
+	background-image: none;
+	font-family: 'Noto Sans';
+	separator-style: solid;
+	separator-width: 1px;
+	separator-color: #e5e5e5;
+	ruler-style: solid;
+	ruler-width: 1px;
+	ruler-color: #e5e5e5;
+}
+
+
+/* Cell Styles: */
+ 
+.TableStyle-Table1
+{
+	border-collapse: separate;
+	overflow: hidden;
+	background-image: none;
+	border-left-style: solid;
+	border-left-color: #e5e5e5;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-right-color: #e5e5e5;
+	border-right-width: 1px;
+	border-top-style: solid;
+	border-top-color: #e5e5e5;
+	border-top-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #e5e5e5;
+	border-bottom-width: 1px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+	border-spacing: 0px 0px;
+}
+
+.TableStyle-Table1-Column-Column1
+{
+	
+}
+
+.TableStyle-Table1-Head-Header1
+{
+	height: 2px;
+}
+
+.TableStyle-Table1-HeadI-Column1-Header1
+{
+	border-right-width: 1px;
+	border-right-color: #e5e5e5;
+	border-right-style: solid;
+	color: #ffffff;
+	font-family: 'Noto Sans';
+	font-size: 11pt;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #646464;
+	background-image: none;
+}
+
+.TableStyle-Table1-HeadI-Column1-Header1 p
+{
+	color: #ffffff;
+	font-family: 'Noto Sans';
+	font-size: 11pt;
+}
+
+.TableStyle-Table1-HeadE-Column1-Header1
+{
+	border-right-width: 1px;
+	border-right-color: #e5e5e5;
+	border-right-style: solid;
+	color: #ffffff;
+	font-family: 'Noto Sans';
+	font-size: 11pt;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #646464;
+	background-image: none;
+	border-bottom-width: 1px;
+	border-bottom-color: #e5e5e5;
+	border-bottom-style: solid;
+}
+
+.TableStyle-Table1-HeadE-Column1-Header1 p
+{
+	color: #ffffff;
+	font-family: 'Noto Sans';
+	font-size: 11pt;
+}
+
+.TableStyle-Table1-HeadF-Column1-Header1
+{
+	border-right-width: 1px;
+	border-right-color: #e5e5e5;
+	border-right-style: solid;
+	color: #ffffff;
+	font-family: 'Noto Sans';
+	font-size: 11pt;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #646464;
+	background-image: none;
+	border-bottom-width: 1px;
+	border-bottom-color: #e5e5e5;
+	border-bottom-style: solid;
+}
+
+.TableStyle-Table1-HeadF-Column1-Header1 p
+{
+	color: #ffffff;
+	font-family: 'Noto Sans';
+	font-size: 11pt;
+}
+
+.TableStyle-Table1-HeadH-Column1-Header1
+{
+	border-right-width: 1px;
+	border-right-color: #e5e5e5;
+	border-right-style: solid;
+	color: #ffffff;
+	font-family: 'Noto Sans';
+	font-size: 11pt;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #646464;
+	background-image: none;
+}
+
+.TableStyle-Table1-HeadH-Column1-Header1 p
+{
+	color: #ffffff;
+	font-family: 'Noto Sans';
+	font-size: 11pt;
+}
+
+.TableStyle-Table1-HeadD-Column1-Header1
+{
+	color: #ffffff;
+	font-family: 'Noto Sans';
+	font-size: 11pt;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #646464;
+	background-image: none;
+	border-bottom-width: 1px;
+	border-bottom-color: #e5e5e5;
+	border-bottom-style: solid;
+}
+
+.TableStyle-Table1-HeadD-Column1-Header1 p
+{
+	color: #ffffff;
+	font-family: 'Noto Sans';
+	font-size: 11pt;
+}
+
+.TableStyle-Table1-HeadC-Column1-Header1
+{
+	border-right-width: 1px;
+	border-right-color: #e5e5e5;
+	border-right-style: solid;
+	color: #ffffff;
+	font-family: 'Noto Sans';
+	font-size: 11pt;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #646464;
+	background-image: none;
+}
+
+.TableStyle-Table1-HeadC-Column1-Header1 p
+{
+	color: #ffffff;
+	font-family: 'Noto Sans';
+	font-size: 11pt;
+}
+
+.TableStyle-Table1-HeadB-Column1-Header1
+{
+	border-right-width: 1px;
+	border-right-color: #e5e5e5;
+	border-right-style: solid;
+	color: #ffffff;
+	font-family: 'Noto Sans';
+	font-size: 11pt;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #646464;
+	background-image: none;
+}
+
+.TableStyle-Table1-HeadB-Column1-Header1 p
+{
+	color: #ffffff;
+	font-family: 'Noto Sans';
+	font-size: 11pt;
+}
+
+.TableStyle-Table1-HeadA-Column1-Header1
+{
+	color: #ffffff;
+	font-family: 'Noto Sans';
+	font-size: 11pt;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #646464;
+	background-image: none;
+}
+
+.TableStyle-Table1-HeadA-Column1-Header1 p
+{
+	color: #ffffff;
+	font-family: 'Noto Sans';
+	font-size: 11pt;
+}
+
+.TableStyle-Table1-HeadG-Column1-Header1
+{
+	color: #ffffff;
+	font-family: 'Noto Sans';
+	font-size: 11pt;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #646464;
+	background-image: none;
+}
+
+.TableStyle-Table1-HeadG-Column1-Header1 p
+{
+	color: #ffffff;
+	font-family: 'Noto Sans';
+	font-size: 11pt;
+}
+
+.TableStyle-Table1-FootI-Column1-
+{
+	font-family: 'Noto Sans';
+	font-size: 11pt;
+	text-align: left;
+	vertical-align: middle;
+	background-color: #ffffff;
+	border-right-width: 1px;
+	border-right-color: #e5e5e5;
+	border-right-style: solid;
+}
+
+.TableStyle-Table1-FootI-Column1- p
+{
+	font-family: 'Noto Sans';
+	font-size: 11pt;
+}
+
+.TableStyle-Table1-FootE-Column1-
+{
+	font-family: 'Noto Sans';
+	font-size: 11pt;
+	text-align: left;
+	vertical-align: middle;
+	background-color: #ffffff;
+	border-right-width: 1px;
+	border-right-color: #e5e5e5;
+	border-right-style: solid;
+}
+
+.TableStyle-Table1-FootE-Column1- p
+{
+	font-family: 'Noto Sans';
+	font-size: 11pt;
+}
+
+.TableStyle-Table1-FootF-Column1-
+{
+	font-family: 'Noto Sans';
+	font-size: 11pt;
+	text-align: left;
+	vertical-align: middle;
+	background-color: #ffffff;
+	border-right-width: 1px;
+	border-right-color: #e5e5e5;
+	border-right-style: solid;
+}
+
+.TableStyle-Table1-FootF-Column1- p
+{
+	font-family: 'Noto Sans';
+	font-size: 11pt;
+}
+
+.TableStyle-Table1-FootH-Column1-
+{
+	font-family: 'Noto Sans';
+	font-size: 11pt;
+	text-align: left;
+	vertical-align: middle;
+	background-color: #ffffff;
+	border-right-width: 1px;
+	border-right-color: #e5e5e5;
+	border-right-style: solid;
+}
+
+.TableStyle-Table1-FootH-Column1- p
+{
+	font-family: 'Noto Sans';
+	font-size: 11pt;
+}
+
+.TableStyle-Table1-FootD-Column1-
+{
+	font-family: 'Noto Sans';
+	font-size: 11pt;
+	text-align: left;
+	vertical-align: middle;
+	background-color: #ffffff;
+}
+
+.TableStyle-Table1-FootD-Column1- p
+{
+	font-family: 'Noto Sans';
+	font-size: 11pt;
+}
+
+.TableStyle-Table1-FootC-Column1-
+{
+	font-family: 'Noto Sans';
+	font-size: 11pt;
+	text-align: left;
+	vertical-align: middle;
+	background-color: #ffffff;
+	border-right-width: 1px;
+	border-right-color: #e5e5e5;
+	border-right-style: solid;
+}
+
+.TableStyle-Table1-FootC-Column1- p
+{
+	font-family: 'Noto Sans';
+	font-size: 11pt;
+}
+
+.TableStyle-Table1-FootB-Column1-
+{
+	font-family: 'Noto Sans';
+	font-size: 11pt;
+	text-align: left;
+	vertical-align: middle;
+	background-color: #ffffff;
+	border-right-width: 1px;
+	border-right-color: #e5e5e5;
+	border-right-style: solid;
+}
+
+.TableStyle-Table1-FootB-Column1- p
+{
+	font-family: 'Noto Sans';
+	font-size: 11pt;
+}
+
+.TableStyle-Table1-FootA-Column1-
+{
+	font-family: 'Noto Sans';
+	font-size: 11pt;
+	text-align: left;
+	vertical-align: middle;
+	background-color: #ffffff;
+}
+
+.TableStyle-Table1-FootA-Column1- p
+{
+	font-family: 'Noto Sans';
+	font-size: 11pt;
+}
+
+.TableStyle-Table1-FootG-Column1-
+{
+	font-family: 'Noto Sans';
+	font-size: 11pt;
+	text-align: left;
+	vertical-align: middle;
+	background-color: #ffffff;
+}
+
+.TableStyle-Table1-FootG-Column1- p
+{
+	font-family: 'Noto Sans';
+	font-size: 11pt;
+}
+
+.TableStyle-Table1-Body-Body1
+{
+	
+}
+
+.TableStyle-Table1-BodyI-Column1-Body1
+{
+	background-image: none;
+	border-bottom-width: 1px;
+	border-bottom-color: #e5e5e5;
+	border-bottom-style: solid;
+	font-family: 'Noto Sans';
+	font-size: 11pt;
+	text-align: left;
+	vertical-align: middle;
+	background-color: #ffffff;
+	border-right-width: 1px;
+	border-right-color: #e5e5e5;
+	border-right-style: solid;
+}
+
+.TableStyle-Table1-BodyI-Column1-Body1 p
+{
+	font-family: 'Noto Sans';
+	font-size: 11pt;
+}
+
+.TableStyle-Table1-BodyE-Column1-Body1
+{
+	background-image: none;
+	border-bottom-width: 1px;
+	border-bottom-color: #e5e5e5;
+	border-bottom-style: solid;
+	font-family: 'Noto Sans';
+	font-size: 11pt;
+	text-align: left;
+	vertical-align: middle;
+	background-color: #ffffff;
+	border-right-width: 1px;
+	border-right-color: #e5e5e5;
+	border-right-style: solid;
+}
+
+.TableStyle-Table1-BodyE-Column1-Body1 p
+{
+	font-family: 'Noto Sans';
+	font-size: 11pt;
+}
+
+.TableStyle-Table1-BodyF-Column1-Body1
+{
+	background-image: none;
+	border-bottom-width: 1px;
+	border-bottom-color: #e5e5e5;
+	border-bottom-style: solid;
+	font-family: 'Noto Sans';
+	font-size: 11pt;
+	text-align: left;
+	vertical-align: middle;
+	background-color: #ffffff;
+	border-right-width: 1px;
+	border-right-color: #e5e5e5;
+	border-right-style: solid;
+}
+
+.TableStyle-Table1-BodyF-Column1-Body1 p
+{
+	font-family: 'Noto Sans';
+	font-size: 11pt;
+}
+
+.TableStyle-Table1-BodyH-Column1-Body1
+{
+	background-image: none;
+	border-bottom-width: 1px;
+	border-bottom-color: #e5e5e5;
+	border-bottom-style: solid;
+	font-family: 'Noto Sans';
+	font-size: 11pt;
+	text-align: left;
+	vertical-align: middle;
+	background-color: #ffffff;
+	border-right-width: 1px;
+	border-right-color: #e5e5e5;
+	border-right-style: solid;
+}
+
+.TableStyle-Table1-BodyH-Column1-Body1 p
+{
+	font-family: 'Noto Sans';
+	font-size: 11pt;
+}
+
+.TableStyle-Table1-BodyD-Column1-Body1
+{
+	background-image: none;
+	border-bottom-width: 1px;
+	border-bottom-color: #e5e5e5;
+	border-bottom-style: solid;
+	font-family: 'Noto Sans';
+	font-size: 11pt;
+	text-align: left;
+	vertical-align: middle;
+	background-color: #ffffff;
+}
+
+.TableStyle-Table1-BodyD-Column1-Body1 p
+{
+	font-family: 'Noto Sans';
+	font-size: 11pt;
+}
+
+.TableStyle-Table1-BodyC-Column1-Body1
+{
+	background-image: none;
+	font-family: 'Noto Sans';
+	font-size: 11pt;
+	text-align: left;
+	vertical-align: middle;
+	background-color: #ffffff;
+	border-right-width: 1px;
+	border-right-color: #e5e5e5;
+	border-right-style: solid;
+}
+
+.TableStyle-Table1-BodyC-Column1-Body1 p
+{
+	font-family: 'Noto Sans';
+	font-size: 11pt;
+}
+
+.TableStyle-Table1-BodyB-Column1-Body1
+{
+	background-image: none;
+	font-family: 'Noto Sans';
+	font-size: 11pt;
+	text-align: left;
+	vertical-align: middle;
+	background-color: #ffffff;
+	border-right-width: 1px;
+	border-right-color: #e5e5e5;
+	border-right-style: solid;
+}
+
+.TableStyle-Table1-BodyB-Column1-Body1 p
+{
+	font-family: 'Noto Sans';
+	font-size: 11pt;
+}
+
+.TableStyle-Table1-BodyA-Column1-Body1
+{
+	background-image: none;
+	font-family: 'Noto Sans';
+	font-size: 11pt;
+	text-align: left;
+	vertical-align: middle;
+	background-color: #ffffff;
+}
+
+.TableStyle-Table1-BodyA-Column1-Body1 p
+{
+	font-family: 'Noto Sans';
+	font-size: 11pt;
+}
+
+.TableStyle-Table1-BodyG-Column1-Body1
+{
+	background-image: none;
+	border-bottom-width: 1px;
+	border-bottom-color: #e5e5e5;
+	border-bottom-style: solid;
+	font-family: 'Noto Sans';
+	font-size: 11pt;
+	text-align: left;
+	vertical-align: middle;
+	background-color: #ffffff;
+}
+
+.TableStyle-Table1-BodyG-Column1-Body1 p
+{
+	font-family: 'Noto Sans';
+	font-size: 11pt;
+}
+
+

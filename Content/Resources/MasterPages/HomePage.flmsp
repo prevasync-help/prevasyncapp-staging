@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <head>
+        <meta charset="utf-8" />
+        <meta name="description" content="" />
+        <meta name="author" content="" /><title></title>
+        <link href="../Stylesheets/StylesForHomePage.css" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css" />
+        <script>/* <![CDATA[ */ 	
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ 
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), 
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) 
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga'); 
+			ga('create', 'UA-1126378-18', 'auto'); 
+			ga('send', 'pageview'); 
+		/* ]]> */</script>
+        <script src="https://kit.fontawesome.com/207ae84188.js">
+        </script>
+    </head>
+    <body>
+        <div id="contentBody" class="off-canvas-main" style="text-align: center;">
+            <MadCap:bodyProxy />
+            <div class="footer center">
+                <div class="home-master-page-footer">
+                    <div>
+                        <p>&#160;</p>
+                    </div>
+                    <div>
+                        <p style="margin-top: 2px;margin-bottom: 2px;">
+                            <img src="../Images/229x55PrecorLogo@1x.png" style="width: 213px;height: 50px;" />
+                        </p>
+                        <p style="margin-top: 0;margin-bottom: 0;"><MadCap:variable name="General.Address" /> </p>
+                        <p style="margin-top: 0;margin-bottom: 2px;"><MadCap:variable name="General.CityStateZip" />
+                        </p>
+                        <p style="margin-bottom: 2px;margin-top: 2px;"><MadCap:variable name="General.PhoneNumber" />
+                        </p>
+                        <div>
+                            <p style="margin-bottom: 2px;"><b>FOLLOW&#160;US</b>
+                            </p>
+                            <table style="width: 100%;">
+                                <col />
+                                <col />
+                                <col />
+                                <col />
+                                <tbody>
+                                    <tr>
+                                        <td><a href="[%=General.Facebook%]" target="_blank"><img src="../Images/Assets/Icons/SocialMedia/FB-white.png" /></a>
+                                        </td>
+                                        <td>
+                                            <p><a href="[%=General.Twitter%]" target="_blank"><img src="../Images/Assets/Icons/SocialMedia/Twitter-white.png" /></a>
+                                            </p>
+                                        </td>
+                                        <td>
+                                            <p><a href="[%=General.Instagram%]" target="_blank"><img src="../Images/Assets/Icons/SocialMedia/Insta-white.png" /></a>
+                                            </p>
+                                        </td>
+                                        <td>
+                                            <p><a href="[%=General.LinkedIn%]" target="_blank"><img src="../Images/Assets/Icons/SocialMedia/LI-white.png" /></a>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <p>&#160;</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p>&#160;</p>
+        <p class="center" style="font-size: 10pt;margin-bottom: 2px;"><MadCap:variable name="General.Copyright" /> </p>
+        <p class="center" style="font-size: 10pt;margin-top: 2px;"><MadCap:variable name="General.AmerBrand" />
+        </p>
+        <p>&#160;</p>
+        <p class="center" style="font-size: 9pt;"><MadCap:variable name="General.Last Updated on" /> <MadCap:variable name="General.NewDateTimeVariable" style="font-size: 9pt;" /></p>
+        <MadCap:pageFooter class="FirstPage">
+        </MadCap:pageFooter>
+        <MadCap:pageFooter class="FirstPage">
+        </MadCap:pageFooter>
+    </body>
+</html>
