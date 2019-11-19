@@ -543,6 +543,11 @@ a.glossaryTerm
 	font-size: 14pt;
 }
 
+.img
+{
+	max-width: 100%;
+}
+
 .dropDown
 {
 	font-family: 'Montserrat', sans-serif;

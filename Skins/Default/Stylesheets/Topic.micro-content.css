@@ -543,6 +543,11 @@
 	font-size: 14pt;
 }
 
+.micro-response .img
+{
+	max-width: 100%;
+}
+
 .micro-response .dropDown
 {
 	font-family: 'Montserrat', sans-serif;
