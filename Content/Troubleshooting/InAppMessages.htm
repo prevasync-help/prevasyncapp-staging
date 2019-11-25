@@ -60,6 +60,7 @@
 }
 
 </style>
+        <link href="../Resources/TableStyles/Table1.css" rel="stylesheet" />
         <link href="../Resources/TableStyles/TableNoteSnippet.css" rel="stylesheet" />
         <script src="../../Resources/Scripts/custom.modernizr.js">
         </script>
@@ -267,24 +268,24 @@
                                                         <img src="../Resources/Images/PSStatusCloudChk.png" />
                                                     </p>
                                                     <p style="text-align: left;">As equipment is added to the network, the status icon changes through each stage (see <a href="../EquipmentStatus/EquipmentStatus.htm" target="_blank">Equipment status</a>). If the equipment status does not complete each stage and stays on a status icon other than the cloud with check mark, review the following:</p>
-                                                    <table style="width: 100%;border-left-style: solid;border-left-width: 1px;border-right-style: solid;border-right-width: 1px;border-top-style: solid;border-top-width: 1px;border-bottom-style: solid;border-bottom-width: 1px;margin-left: 0;margin-right: auto;">
-                                                        <col style="width: 73px;" />
-                                                        <col />
+                                                    <table style="width: 100%;border-left-style: solid;border-left-width: 1px;border-right-style: solid;border-right-width: 1px;border-top-style: solid;border-top-width: 1px;border-bottom-style: solid;border-bottom-width: 1px;margin-left: 0;margin-right: auto;mc-table-style: url('../Resources/TableStyles/Table1.css');" class="TableStyle-Table1" cellspacing="0">
+                                                        <col style="width: 73px;" class="TableStyle-Table1-Column-Column1" data-mc-pattern="0" />
+                                                        <col class="TableStyle-Table1-Column-Column1" />
                                                         <tbody>
-                                                            <tr style="height: 0pt;">
-                                                                <td>
+                                                            <tr style="height: 0pt;" class="TableStyle-Table1-Body-Body1">
+                                                                <td class="TableStyle-Table1-BodyI-Column1-Body1">
                                                                     <img src="../Resources/Images/PSStatusCSAFE.png" />
                                                                 </td>
-                                                                <td>
+                                                                <td class="TableStyle-Table1-BodyG-Column1-Body1">
                                                                     <p>Error reported by card.</p>
                                                                     <p> Check the lights on card to determine if the CSAFE light is on. If the CSAFE light is on and the other lights display normal, but this icon does not change, the card may need to be replaced.</p>
                                                                 </td>
                                                             </tr>
-                                                            <tr>
-                                                                <td>
+                                                            <tr class="TableStyle-Table1-Body-Body1">
+                                                                <td class="TableStyle-Table1-BodyI-Column1-Body1">
                                                                     <img src="../Resources/Images/PSStatusNoWifi.png" />
                                                                 </td>
-                                                                <td>
+                                                                <td class="TableStyle-Table1-BodyG-Column1-Body1">
                                                                     <p>No wifi connection. The card has been configured but it is not yet connected to wifi.</p>
                                                                     <ul>
                                                                         <li value="1">Ensure wifi access point is in range of equipment.</li>
@@ -293,11 +294,11 @@
                                                                     </ul>
                                                                 </td>
                                                             </tr>
-                                                            <tr>
-                                                                <td>
+                                                            <tr class="TableStyle-Table1-Body-Body1">
+                                                                <td class="TableStyle-Table1-BodyI-Column1-Body1">
                                                                     <img src="../Resources/Images/PSStatusWifiOn.png" />
                                                                 </td>
-                                                                <td>
+                                                                <td class="TableStyle-Table1-BodyG-Column1-Body1">
                                                                     <p>Wifi connected but no communication with Preva cloud service. </p>
                                                                     <ul>
                                                                         <li value="1">Ensure wifi access point is connected to internet.</li>
@@ -306,11 +307,11 @@
                                                                     </ul>
                                                                 </td>
                                                             </tr>
-                                                            <tr>
-                                                                <td>
+                                                            <tr class="TableStyle-Table1-Body-Body1">
+                                                                <td class="TableStyle-Table1-BodyC-Column1-Body1">
                                                                     <img src="../Resources/Images/PSStatusWifiOnWaitPS.png" />
                                                                 </td>
-                                                                <td>
+                                                                <td class="TableStyle-Table1-BodyA-Column1-Body1">
                                                                     <p>Internet connected, no response from Preva cloud service. </p>
                                                                     <p>This icon should only appear briefly during the registration stages. Please contact Precor support if icon does not move on to cloud with check mark.</p>
                                                                 </td>
